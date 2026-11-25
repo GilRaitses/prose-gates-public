@@ -4,7 +4,6 @@ The measured result remains stable across the full listening block today.
 Interval quality follows a circular layout in pitch for trained listeners.
 The listening block repeats after the next course revision cycle in spring.
 The model offers a clear account of interval quality for trained listeners.
-Listener behavior changed after the second training block ended yesterday.
 The pitch rose and the color shifted on the wheel during the trial.
 The pitch rose. The color shifted on the wheel during the trial.
 Accuracy sat in the 60–70% band on the first listen test.

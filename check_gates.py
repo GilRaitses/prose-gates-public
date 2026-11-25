@@ -122,11 +122,6 @@ HYPE = re.compile(
     r"wonderful|successful(ly)?)\b",
     re.IGNORECASE,
 )
-BRITISH = re.compile(
-    r"\b(colour|centre|analys(e|ed|es|ing)|licence|behaviour|organis|favour|"
-    r"neighbour|programme|catalogue|recognis|realis|travell|modell|judgement)",
-    re.IGNORECASE,
-)
 ARROW = re.compile(r"→|->|=>|⟶|←|⇒")
 SEMICOLON = re.compile(r";")
 RANGE = re.compile(
@@ -491,8 +486,6 @@ def check_file(path: Path, strict: bool) -> list[tuple[str, str, int, str]]:
             findings.append(("PROMISE", "fail", lineno, txt))
         if lineno not in bib and HYPE.search(txt):
             findings.append(("HYPE", "fail", lineno, txt))
-        if BRITISH.search(txt):
-            findings.append(("BRITISH", "fail", lineno, txt))
         if ARROW.search(txt):
             findings.append(("ARROW", "fail", lineno, txt))
         if SEMICOLON.search(txt):

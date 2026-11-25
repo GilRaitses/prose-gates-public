@@ -26,7 +26,6 @@ NEW_GATES = {
     "FRAME",
     "PROMISE",
     "HYPE",
-    "BRITISH",
     "ARROW",
     "SEMICOLON",
     "RANGE",

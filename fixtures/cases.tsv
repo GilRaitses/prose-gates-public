@@ -11,8 +11,6 @@ PROMISE	fail	We will repeat the listening block after the next course revision c
 PROMISE	pass	The listening block repeats after the next course revision cycle in spring.
 HYPE	fail	The model offers a robust account of interval quality for trained listeners.
 HYPE	pass	The model offers a clear account of interval quality for trained listeners.
-BRITISH	fail	Listener behaviour changed after the second training block ended yesterday.
-BRITISH	pass	Listener behavior changed after the second training block ended yesterday.
 ARROW	fail	The pitch rose → the color shifted on the wheel during the trial.
 ARROW	pass	The pitch rose and the color shifted on the wheel during the trial.
 SEMICOLON	fail	The pitch rose; the color shifted on the wheel during the trial.

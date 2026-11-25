@@ -1,6 +1,6 @@
 # prose-gates-public
 
-A small Python checker for prose revision gates. Point it at HTML, Markdown, TeX, text or YAML and it flags hedges, filler openers, pointer subjects, positional framing, promise lines, hype, British spelling, arrows, semicolons, banned dashes, contrast frames and percent ranges written as "N to M%".
+A small Python checker for prose revision gates. Point it at HTML, Markdown, TeX, text or YAML and it flags hedges, filler openers, pointer subjects, positional framing, promise lines, hype, arrows, semicolons, banned dashes, contrast frames and percent ranges written as "N to M%".
 
 The script uses the Python standard library only. No extra packages are required.
 

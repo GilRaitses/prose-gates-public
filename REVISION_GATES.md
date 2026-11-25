@@ -23,7 +23,6 @@ Pass file or directory paths to the checker. The script uses the Python standard
 | FRAME | No positional framing | "the team holds", "we believe", "the project argues" and "the authors hold" announce a stance instead of stating the claim. |
 | PROMISE | No promise lines | "I will", "we will", "would again" and "next time we would" defer work that the sentence should already report. |
 | HYPE | No hype or vague praise | Words such as robust, seamless, leverage, landscape, great and impressive add tone without information. The full list is in `check_gates.py`. Bibliography environments, `\bibitem` lines, TeX chapter or section titles named References or Bibliography and markdown `## References` sections are skipped so a cited title is not flagged. |
-| BRITISH | No British spelling | American forms are required. The list includes colour, centre, analyse, licence, behaviour, organise, favour, neighbour, programme, catalogue, recognise, realise, travelling, modelling and judgement. |
 | ARROW | No arrows in prose | Arrow glyphs and digraphs (→, ->, =>, ⟶, ←, ⇒) are banned in prose. Code fences and TeX commands are stripped first. |
 | SEMICOLON | No semicolons in prose | A period or a comma carries the break. |
 | RANGE | No "N to M percent" or "N to M%" | Write the range as N–M%. `check_gates.py --fix` applies that rewrite. |
